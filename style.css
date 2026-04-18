@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.game-card {
+    background: #0f3460;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 380px;
+    border: 1px solid #e94560;
+}
+
+h2 {
+    color: #e94560;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #add8e6;
+    margin-bottom: 30px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    background: #1a1a2e;
+    border: 2px solid #533483;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    outline: none;
+}
+
+input:focus {
+    border-color: #e94560;
+}
+
+button {
+    background: #e94560;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #ff2e63;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+}
+
+.feedback-box {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    min-height: 20px;
+}
+
+
+
+.hint { color: #fca311; border: 1px dashed #fca311; }
+.win { color: #4ecca3; border: 1px solid #4ecca3; font-size: 1.1rem; }
